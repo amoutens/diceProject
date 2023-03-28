@@ -2,9 +2,37 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>DiceProject</title>
+    <link rel = "stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
+<script src = "script.js"></script>
+<div class="container">
+    <h1 id = "h1">Click to the button</h1>
+
+    <div class="dice">
+        <p>Player 1</p>
+        <img class="img1" id = "img1" src="images/dice6.png">
+
+    </div>
+
+    <div class="dice">
+        <p>Player 2</p>
+        <img class="img2" id = "img2" src="images/dice6.png">
+    </div>
+    <div>
+        <button onclick="changeImage()">CLICK</button>
+    </div>
+
+</div>
 
 </body>
 </html>
